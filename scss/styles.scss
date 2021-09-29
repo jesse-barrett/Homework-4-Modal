@@ -1,0 +1,12 @@
+//IMPORT ALL SITE SASS FILES HERE
+//basic site structures
+@import "structure.scss";
+@import "nav.scss";
+@import "footer.scss";
+
+//specific page styles
+@import "../pages/home/home.scss";
+@import "../pages/login/login.scss";
+
+//modal styles
+@import "modal.scss";

@@ -1,0 +1,32 @@
+.home-hero {
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/home-hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+
+  &__text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+}
+.home-title {
+  margin-bottom: 30px;
+}
+.home-text {
+  margin-bottom: 20px;
+}
+.home-text:last-of-type {
+  margin-bottom: 50px;
+}
